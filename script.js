@@ -270,12 +270,11 @@ function configurarFiltros() {
 function configurarEventosImagenes() {
   const verDetalleButtons = document.querySelectorAll(".ver-detalle-btn");
 
-  //verDetalleButtons.item(1).click = function()
-
   verDetalleButtons.forEach((btn) => {
     btn.addEventListener("click", function (e) {
       e.preventDefault();
       const id = parseInt(this.getAttribute("data-id"));
+      // Quitar elemento de backdrop en el DOM si ya existe
       const myBackdrop = document.querySelector(".modal-backdrop");
       myBackdrop && myBackdrop.remove();
       document.body.style = "none";
@@ -409,11 +408,3 @@ function configurarBotonesCategorias() {
     });
   });
 }
-
-/* const imageModal = document.getElementById("imageModal");
-imageModal.getInstance().hide();
-document.querySelector('[data-dismiss="modal"]').click();
-
-document.querySelector(".btn-close").addEventListener("click", function () {
-  imageModal.hide();
-}); */

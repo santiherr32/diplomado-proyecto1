@@ -1,6 +1,6 @@
 # Proyecto 1 DW: Galería Fotográfica
 
-Este proyecto consiste en una aplicación web interactiva para una galería fotográfica, desarrollada utilizando HTML, CSS, Bootstrap y JavaScript. La aplicación permite a los usuarios explorar una colección de fotografías organizadas por categorías, ver detalles de cada imagen y contactar con los autores.
+Este proyecto consiste en una aplicación web interactiva para una galería fotográfica, desarrollada utilizando HTML, CSS, Bootstrap y JavaScript. La aplicación permite a los usuarios explorar una colección de fotografías organizadas por categorías y ver detalles de cada imagen.
 
 ## Características
 
@@ -70,7 +70,7 @@ Para personalizar la galería con tus propias imágenes:
 
 ## Autor
 
-Desarrollado por [Tu Nombre] - [tu@email.com]
+Desarrollado por Santiago Herrera - [santiherr32@pm.me]
 
 ## Licencia
 
