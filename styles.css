@@ -1,0 +1,213 @@
+/* Estilos generales */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --text-color: #333;
+  --text-light: #6c757d;
+}
+
+body {
+  font-family: system-ui, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navegación */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Sección de inicio */
+#inicio {
+  background-color: var(--light-color);
+  padding: 4rem 0;
+}
+
+/* Tarjetas de categorías */
+.category-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.category-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Galería */
+#galeria {
+  background-color: var(--light-color);
+}
+
+.filter-buttons {
+  margin-bottom: 2rem;
+}
+
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+.gallery-item img {
+  transition: transform 0.5s ease;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-item .card-body {
+  padding: 0.75rem;
+}
+
+.gallery-item h5 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.gallery-item p {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Sobre nosotros */
+#about {
+  padding: 4rem 0;
+}
+
+#about .card {
+  height: 100%;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-card {
+  background-color: var(--light-color);
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+/* Detalle de imagen */
+.image-detail-container {
+  background-color: var(--light-color);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+#detail-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .category-card img {
+    height: 150px;
+  }
+
+  .gallery-item img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  #about {
+    padding: 2rem 0;
+  }
+
+  .filter-buttons .btn {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Modal de imagen */
+#modal-image {
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+/* Estilos para botones */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary.active {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-color);
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fff !important;
+}
