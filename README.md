@@ -4,7 +4,7 @@ Este proyecto consiste en una aplicación web interactiva para una galería foto
 
 ## Pagina web
 
-[https://santiherr32.github.io/diplomado-proyecto1/]
+https://santiherr32.github.io/diplomado-proyecto1/
 
 ## Características
 
