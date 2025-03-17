@@ -2,6 +2,10 @@
 
 Este proyecto consiste en una aplicación web interactiva para una galería fotográfica, desarrollada utilizando HTML, CSS, Bootstrap y JavaScript. La aplicación permite a los usuarios explorar una colección de fotografías organizadas por categorías y ver detalles de cada imagen.
 
+## Pagina web
+
+[https://santiherr32.github.io/diplomado-proyecto1/]
+
 ## Características
 
 - **Diseño Responsivo:** La aplicación se adapta perfectamente a diferentes tamaños de pantalla gracias a Bootstrap.
